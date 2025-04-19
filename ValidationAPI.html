@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Validation API</title>
-    </head>
-    <body>
-        <p>Enter a number and click OK:</p>
-        <input id="id1" type="number" min="100" max="300" required>
-        <button onclick="myFunction()">OK</button>
-        <p>If the number is less than 100 or greater than 300, an error message will be displayed.</p>
-        <p id="result"></p>
-        <script>
+
+<head>
+    <title>Validation API</title>
+</head>
+
+<body>
+    <input id="id1" type="number" min="100" max="300" required>
+    <button onclick="myFunction()">OK</button>
+    <p>If the number is less than 100 or greater than 300, an error message will be displayed.</p>
+    <p id="result"></p>
+    <script>
          function myFunction() {
 
                 var inpObj = document.getElementById("id1");
@@ -25,6 +26,7 @@
                 }
 
             }
-        </script>
-    </body>
+    </script>
+</body>
+
 </html>
